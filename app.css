@@ -20,7 +20,16 @@ body {
 .content {
   text-align: center;
   display: inline-block; }
-
+.content span {    
+  font-weight: bold; }
+.content a {
+  font-size: 1.5em; }
+.content a.fb {
+  color: #3E588E;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+.content a.fb:hover {
+  color: #1A356D; }
 .title {
   font-size: 96px;
   font-weight: bold;
@@ -38,14 +47,12 @@ input[type=text] {
 .error-list {
   color: #f44336; }
 
-a {
-  color: #90caf9; }
-
 a, a:visited {
   text-decoration: none; }
 
 .footer {
-    font-size: 13px;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 
